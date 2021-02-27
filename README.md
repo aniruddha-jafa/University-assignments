@@ -1,2 +1,1 @@
-Code I wrote during college for various programming assignments. 
-Ashoka Univeristy, 2016-2020
+Code I wrote for various programming assignments during my time at Ashoka University, as an undergraduate student (2016-2020).
