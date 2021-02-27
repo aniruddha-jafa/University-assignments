@@ -2,7 +2,7 @@
 import csv
 
 
-# this code was written during a timed in-class assignment
+# this code was written during a timed in-class exam
 def simulate_NFA(input_string, delta_function, final_states):
     num_states = len(delta_function)
     states = sorted(list(delta_function.keys()))
