@@ -1,0 +1,34 @@
+
+
+:: Assumptions
+
+o) Have only used regexes - no edit distance. So the chatbot is easy to fool if one wants to.
+
+i) 5 classes of statement
+
+balance query
+payment query
+outstanding
+ambiguous statement, but contains terms that might warrant a re-phrase 
+all other statements: “Sorry but I cannot help you..”
+
+
+ii) Account number is 10-digits
+
+iii) Credit card number is 16 digits
+
+iv)* Does not take date into account (Questions like “when should I pay my credit card bill” are treated as normal payment queries)
+
+v)* “How much money do I owe" - is ambiguous (payment or outstanding), so we ask the user to rephrase.
+
+vi) 
+“payment due”, “total due” -  treated as card payment queries
+
+
+:: How to run code
+
+Just enter “python file_name” on the terminal, and follow on-screen instructions 
+
+
+:: Collaborators
+Paul Kurian suggested the is_likely_ambiguous_statement() function to recall sessions in case of ambiguous statements. 
