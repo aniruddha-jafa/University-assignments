@@ -1,0 +1,22 @@
+Aniruddha Jafa
+September 2019
+
+
+:: Assumptions
+- Important : If at a certain point multiple words are equiprobable, one has ben selected randomly. 
+
+
+
+- Sentence length fixed at 12. 
+- Only lowercase considered
+- Commas ignored (replaced by whitespace)
+- period “.” treated as end of sentence, replaces with “ </s> <s> ”. Words like “Mr.” and “Mrs.” have been normalised before this replacement.
+
+
+
+- If n-gram match is not found, will NOT look at n-1 gram etc. ** MENTION REASONS
+
+
+
+
+- [verify]  “?” and “!” ignored (replaced by whitespace)
